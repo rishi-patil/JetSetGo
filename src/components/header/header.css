@@ -1,0 +1,35 @@
+.header{
+  background-color: #281e96;
+  justify-content: center;
+  display: flex;
+  height : 80px;
+}
+.headerContainer{
+  width: 100%;
+  max-width: 1024px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.headerList{
+  display: flex;
+  /* justify-content:space-evenly; */
+  gap: 40px;
+} 
+
+.headerListItem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+/* Hover select option 1 */
+
+/* .headerListItem.active{
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 20px;
+} */
+

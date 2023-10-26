@@ -1,0 +1,30 @@
+.navbar{
+  height : 50px;
+  background-color: #281e96;
+  display: flex;
+  justify-content: center;
+}
+/* <------- ------> */
+.nav-containerv{
+  width: 100%;
+  max-width: 1024px;
+  color: aliceblue;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 16%;
+}
+
+.logo{
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.nav-buttons{
+  margin-left: 20px;
+  border: none;
+  padding: 5px 10px;
+  /* padding: ; */
+  cursor: pointer;
+  color: #06115b;
+}

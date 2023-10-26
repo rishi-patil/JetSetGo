@@ -1,0 +1,45 @@
+.offerContainer{
+  width: 100%;
+  max-width: 1024px;
+  margin: 20px 0px 100px 0px;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 16.3%;
+  height: 100px;
+}
+
+h4{
+  font-weight: 680;
+}
+
+.row1{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+.offerCol{
+  border-radius: 12px;
+  margin-bottom: 5%;
+  background-color: rgb(220, 234, 237);
+  height: 150px;
+  width: 500px;
+  display: flex;
+}
+
+.offerContent{
+  padding-top: 6%;
+  padding-left: 5%;
+  width: 60%;
+}
+
+.offerImg{
+  width: 10%;
+  height: 150px;
+}
+
+.xyz{
+  width: 100%;
+  max-width: fit-content;
+}
