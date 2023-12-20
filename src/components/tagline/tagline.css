@@ -1,0 +1,13 @@
+.taglineContainer{
+  background-color: #D2E0FB;
+  justify-content: center;
+  display: flex;
+}
+.tagline{
+  display:flex;
+  background-color: #D2E0FB;
+  margin: 0;
+  width: 100%;
+  max-width: 1024px;
+}
+/*  #b3dc8b */

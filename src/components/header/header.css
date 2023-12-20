@@ -1,0 +1,43 @@
+.header{
+  background-color: #3A77C7;
+  justify-content: center;
+  display: flex;
+  height : 80px;
+}
+.headerContainer{
+  width: 100%;
+  max-width: 1024px;
+  /* display: flex; */
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+.headerList{
+  display: flex;
+  /* justify-content:space-evenly; */
+  gap: 40px;
+} 
+
+.headerListItem{
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: white;
+}
+
+.headerListItem ::after{
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: white;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.headerListItem :hover::after{
+  width: 100%;
+}
+
+
+ 
